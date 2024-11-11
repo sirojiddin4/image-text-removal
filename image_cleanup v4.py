@@ -11,8 +11,8 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 client = vision.ImageAnnotatorClient()
 
 # Define paths for input and output directories
-source_folder = r'C:\Users\user\Desktop\Thesis\dataset\memotion_dataset_7k\images'
-output_folder = r'C:\Users\user\Desktop\Thesis\output_images_60'
+source_folder = 'path/to/input/images'
+output_folder = 'path/to/output/images'
 os.makedirs(output_folder, exist_ok=True)
 
 # Match all files starting with "image_" and ending with a number between 101 and 200, regardless of extension
